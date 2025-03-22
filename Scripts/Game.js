@@ -1247,7 +1247,7 @@ var ticksPerSecond=20,game,GameController=function()
 			break;
 			case"vitality":n.sort(function(n,t)
 				{
-				return t.traits[0].value-n.traits[0].value
+				return t.traits[0].value-n.traits[0].value*2
 			}
 			);
 			break;
